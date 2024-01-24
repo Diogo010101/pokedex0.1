@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'solid_poke';
+    src: url('../fonts/Pokemon\ Solid.ttf');
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../img/pokemons/pokémon-pixel-art-green-grass-wallpaper.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+}
+
+/*Barra de Navegação TOPO*/
+
+.titulo_principal{
+    font-family: 'solid_poke';
+    color: yellow;
+    font-size: 3em;
+    -webkit-text-stroke: 3px blue;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.menu_principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.voltar{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.voltar span{
+    font-size: 40px;
+}
+
+.menu_lista{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.menu_lista span{
+    font-size: 40px;
+}
+
+/*Section Principal*/
+#section_principal{
+    margin-bottom: 50px;
+
+}
+
+
+.titulo_principal{
+    padding: 1rem   ;
+    text-align: center;
+}
+
+.paginacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.botao_paginacao{
+    background-color: #62c154;
+    color: white;
+    border-radius: 10px;
+    margin: 40px;
+    cursor: pointer;
+}
