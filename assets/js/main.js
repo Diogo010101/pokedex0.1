@@ -113,7 +113,7 @@ next.addEventListener('click', () =>{
         }
     }else{
         console.log('Lista Finalizada')
-        alert(`Você atingiu o limite de ${offSet + limit} pokemons, que correpondem a 1ª geração.`)
+        alert(`Você atingiu o limite de ${offSet + limit} Pokémon, que correpondem a 1ª geração.`)
     } 
 })
 
@@ -121,7 +121,7 @@ next.addEventListener('click', () =>{
 
 prev.addEventListener('click', () => {
     if (offSet == 0) {
-        alert(`Não é possível voltar mais a lista está no inicio`)
+        alert(`Não é possível voltar mais! A lista está no inicio`)
     } else if (offSet > 140){
         offSet = offSet - (limit + 1)
         details.classList.remove('details_on');
